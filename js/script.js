@@ -47,7 +47,7 @@ function renderDataTable() {
         console.log({ dataRow })
         $('#dataTable').append(dataRow)
     })
-    $('#subTotal').html(subTotal)
+    $('#subTotal').html(subTotal.toFixed(2))
     $('#salesTax').html(salesTax)
     $('#shipping').html(shipping.toFixed(2))
     $('#totalDue').html(totalDue)
