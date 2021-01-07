@@ -1,0 +1,203 @@
+.navbar{ background:black;}
+
+.nav-link , .navbar-brand{ color: white;}
+
+.navbar-brand{font-size: 150%;  font-weight: bold; font-style: initial;}
+
+.nav-link{ margin-right: 1em !important; font-size: small;}
+
+.nav-link:hover{ background: #f4f4f4; color: gray; }
+
+.navbar-brand:hover{ color: gray; }
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.navbar-toggler{  background:#fff !important;}
+
+/*header style*/
+.header{
+    background-image: url('../pineapple-1704339_1280.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+   }
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(120, 120, 120, 0.20); 
+   }
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+    
+}
+
+.description h1{
+ color: black ;
+ font: Bold;
+}
+
+.description p{
+ color: white;
+ font-size: 20px;
+ line-height: 1.5;
+ 
+}
+
+.description button{
+ border: none;
+ background:black;
+ color:#fff;
+ padding: 10px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 18px;
+ margin: 4px 2px;
+}
+
+.text{
+    font-size: small;
+    font-weight: bold;
+    color: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+
+/* shop part*/ 
+
+.shop{
+ margin: 4em 0;
+ padding: 1em;
+ position: relative;
+ min-width:500px;
+ min-height:750px;
+
+} 
+
+.shop img{
+ height: 100%;
+ width: 100%;
+ margin-top: 8em; 
+ margin-bottom: -8em; 
+}
+.shop span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 115px;
+}
+.shop h3{
+ text-align: center;
+ margin-top: 4em;
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 
+}
+.shop label{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.shop p{
+ line-height:2;
+ color:#888;
+ text-align: center;
+ font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.shop div {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Helvetica;
+  }
+  
+.shop6{
+  margin-bottom: 15em;
+}
+
+/*about*/
+.about{
+  background-image: url('../about\ me.jpg');
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: unset;
+  height: 100%;
+  width: 100%;
+  margin-top: 8em;
+  
+ }
+ .about h1{
+   text-align: center;
+   color: palevioletred;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+ }
+ .about p {
+    color: black;
+    line-height: 300%;
+    font-size: 1.25em;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+ .about h2 {
+   text-align: center;
+   color: black;
+   margin-top: 1em;
+   font-size: 3.5em;
+ }
+ /*con*/
+ .contact{
+  background-color: black;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: unset;
+}
+.contact h1{
+  text-align: center;
+  color: white;
+}
+.contact p {
+   color: white;
+   line-height: 500%;
+   text-align: left;
+   font-size: larger;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.contact h2 {
+  text-align: left;
+  color: white;
+  margin-left: 0em;
+  margin-top: 1em;
+}
+.contact img {
+  margin-left: 8em;
+}
+.contact i {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 1em;
+}
+.contact a {
+  font-weight: lighter;
+  font-style: initial;
+  margin-left: 1em;
+}
+
+/*More Detail Button*/
+a.example_f {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+}
+
